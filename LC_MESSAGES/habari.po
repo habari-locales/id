@@ -4,13 +4,14 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# M Haidar Hanif <mhaidarhanif@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-19 00:00+0000\n"
-"PO-Revision-Date: 2013-05-19 08:41+0000\n"
-"Last-Translator: chrismeller <chris@doesnthaveone.com>\n"
+"POT-Creation-Date: 2013-06-30 00:00+0000\n"
+"PO-Revision-Date: 2013-09-13 14:10+0000\n"
+"Last-Translator: M Haidar Hanif <mhaidarhanif@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/habari/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgstr "Kosakata %1$s (%2$s) dihapus."
 msgid ""
 "Not all posts tagged \"%1$s\" could be reassigned to \"%2$s\". They have "
 "been left alone."
-msgstr ""
+msgstr "Tidak semua pos yang ditandai \"%1$s\" bisa ditetapkan ke \"%2$s\". Itu sudah ditinggalkan sendiri."
 
 #: classes/vocabulary.php:869
 #, php-format
@@ -41,7 +42,7 @@ msgid "Term %1$s in the %2$s vocabulary has been renamed to %3$s."
 msgid_plural "Terms %1$s in the %2$s vocabulary have been renamed to %3$s."
 msgstr[0] ""
 
-#: classes/url.php:222
+#: classes/url.php:223
 #, php-format
 msgid ""
 "Could not find a rule matching the following names: %s. File: %s (line %s)"
@@ -58,7 +59,7 @@ msgstr ""
 
 #: classes/eventlog.php:403 handlers/adminlogshandler.php:162
 msgid "Logs purged."
-msgstr ""
+msgstr "Log dibersihkan."
 
 #: classes/plugins.php:39 classes/plugins.php:40
 #, php-format
@@ -222,7 +223,7 @@ msgstr ""
 msgid "Requested property @name does not exist."
 msgstr ""
 
-#: classes/formcontrol.php:96
+#: classes/formcontrol.php:97
 #, php-format
 msgid "The FormControl type \"%s\" is invalid."
 msgstr ""
@@ -763,12 +764,12 @@ msgstr ""
 
 #. @locale Displayed as an icon indicating there is help text available for a
 #. plugin.
-#: classes/pluggable.php:251 classes/plugin.php:65
+#: classes/pluggable.php:257 classes/plugin.php:65
 #: handlers/adminpluginshandler.php:61 handlers/adminpluginshandler.php:113
 msgid "?"
 msgstr "?"
 
-#: classes/pluggable.php:285 plugins/undelete/undelete.plugin.php:172
+#: classes/pluggable.php:291 plugins/undelete/undelete.plugin.php:172
 #: plugins/undelete/undelete.plugin.php:184
 #: plugins/flickrsilo/flickrsilo.plugin.php:862
 #: plugins/habarisilo/habarisilo.plugin.php:65 admin/block_instances.php:17
@@ -1360,7 +1361,7 @@ msgstr "Atur komentar pada semua tulisan."
 msgid "Manage comments on one's own posts"
 msgstr "Atur komentar pada tulisan sendiri"
 
-#: classes/acl.php:908 handlers/adminhandler.php:357
+#: classes/acl.php:908 handlers/adminhandler.php:363
 msgid "Manage tags"
 msgstr ""
 
@@ -1432,7 +1433,7 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: classes/acl.php:948 handlers/adminhandler.php:356
+#: classes/acl.php:948 handlers/adminhandler.php:362
 msgid "Comments"
 msgstr "Komentar"
 
@@ -1708,7 +1709,7 @@ msgstr ""
 msgid "Videos"
 msgstr ""
 
-#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:357
+#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:363
 msgid "Tags"
 msgstr "Tag"
 
@@ -1940,7 +1941,7 @@ msgstr ""
 msgid "Import Categories as Tags"
 msgstr ""
 
-#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:362
+#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:368
 #: admin/import.php:11
 msgid "Import"
 msgstr "Impor"
@@ -2385,7 +2386,7 @@ msgstr ""
 msgid "Links to show:"
 msgstr ""
 
-#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:367
+#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:373
 msgid "Logout"
 msgstr "Keluar"
 
@@ -2639,7 +2640,7 @@ msgstr "Ubah Kata Sandi"
 msgid "Regional Settings"
 msgstr "Pengaturan Regional"
 
-#: handlers/adminusershandler.php:80 handlers/adminhandler.php:358
+#: handlers/adminusershandler.php:80 handlers/adminhandler.php:364
 msgid "Dashboard"
 msgstr "Dasbor"
 
@@ -2692,7 +2693,7 @@ msgstr "Sembunyikan jumlah komentar SPAM comments pada dasbor Anda."
 msgid "Hide Spam Count"
 msgstr "Sembunyikan Hitungan Spam"
 
-#: handlers/adminusershandler.php:154 handlers/adminhandler.php:365
+#: handlers/adminusershandler.php:154 handlers/adminhandler.php:371
 msgid "Groups"
 msgstr "Grup"
 
@@ -2717,7 +2718,7 @@ msgstr "Tidak ada pengguna"
 msgid "Access to that page has been denied by the administrator."
 msgstr "Akses ke halaman tersebut ditolak oleh administrator."
 
-#: handlers/adminusershandler.php:230 handlers/adminhandler.php:364
+#: handlers/adminusershandler.php:230 handlers/adminhandler.php:370
 msgid "My Profile"
 msgstr "Profil saya"
 
@@ -2862,155 +2863,155 @@ msgid ""
 "We saved the last form you posted. Log back in to continue its submission."
 msgstr "Kami telah menyimpan form terakhir yang Anda buat. Masuk kembali untuk melanjutkan pengajuan."
 
-#: handlers/adminhandler.php:157
+#: handlers/adminhandler.php:162
 #, php-format
 msgid "%1$s->%2$s() does not exist."
 msgstr "%1$s->%2$s() tidak ada."
 
-#: handlers/adminhandler.php:179
+#: handlers/adminhandler.php:184
 msgid "The page you were looking for was not found."
 msgstr "Halaman yang Anda cari tidak ditemukan."
 
-#: handlers/adminhandler.php:227 handlers/adminhandler.php:229
+#: handlers/adminhandler.php:233 handlers/adminhandler.php:235
 msgid "Habari Version"
 msgstr "Versi Habari"
 
-#: handlers/adminhandler.php:232
+#: handlers/adminhandler.php:238
 msgid "Habari API Version"
 msgstr "Versi API Habari"
 
-#: handlers/adminhandler.php:233
+#: handlers/adminhandler.php:239
 msgid "Habari DB Version"
 msgstr "Versi DB Habari"
 
-#: handlers/adminhandler.php:234
+#: handlers/adminhandler.php:240
 msgid "Active Theme"
 msgstr "Tema yang Aktif"
 
-#: handlers/adminhandler.php:235 handlers/adminoptionshandler.php:106
+#: handlers/adminhandler.php:241 handlers/adminoptionshandler.php:106
 msgid "System Locale"
 msgstr "Sistem Lokal"
 
-#: handlers/adminhandler.php:236
+#: handlers/adminhandler.php:242
 msgid "Cache Class"
 msgstr ""
 
-#: handlers/adminhandler.php:240
+#: handlers/adminhandler.php:246
 msgid "PHP Version"
 msgstr "Versi PHP"
 
-#: handlers/adminhandler.php:241
+#: handlers/adminhandler.php:247
 msgid "Server Software"
 msgstr "Software Server"
 
-#: handlers/adminhandler.php:242
+#: handlers/adminhandler.php:248
 msgid "Database"
 msgstr "Basis Data"
 
-#: handlers/adminhandler.php:243
+#: handlers/adminhandler.php:249
 msgid "PHP Extensions"
 msgstr "Ekstensi PHP"
 
-#: handlers/adminhandler.php:244
+#: handlers/adminhandler.php:250
 msgid "PHP Configuration Settings"
 msgstr ""
 
-#: handlers/adminhandler.php:245
+#: handlers/adminhandler.php:251
 msgid "Browser"
 msgstr "Browser"
 
-#: handlers/adminhandler.php:276 admin/sysinfo.php:3 admin/sysinfo.php:8
+#: handlers/adminhandler.php:282 admin/sysinfo.php:3 admin/sysinfo.php:8
 #: admin/sysinfo.php:9 admin/footer.php:22
 msgid "System Information"
 msgstr ""
 
-#: handlers/adminhandler.php:331
+#: handlers/adminhandler.php:337
 #, php-format
 msgid "Create a new %s"
 msgstr "Buat %s baru"
 
-#: handlers/adminhandler.php:335
+#: handlers/adminhandler.php:341
 #, php-format
 msgid "Manage %s"
 msgstr "Atur %s"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "Create content"
 msgstr "Buat Konten"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "New"
 msgstr "Baru"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage content"
 msgstr "Atur konten"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage"
 msgstr "Atur"
 
-#: handlers/adminhandler.php:356
+#: handlers/adminhandler.php:362
 msgid "Manage comments"
 msgstr ""
 
-#: handlers/adminhandler.php:358
+#: handlers/adminhandler.php:364
 msgid "View your user dashboard"
 msgstr "Lihat dasbor Anda"
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "View and configure site options"
 msgstr ""
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "Options"
 msgstr "Opsi"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Preview and activate themes"
 msgstr "Pratampil dan aktifkan tema"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Themes"
 msgstr "Tema"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Activate, deactivate, and configure plugins"
 msgstr "Aktifkan, nonaktifkan, dan konfigurasikan plugin"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Plugins"
 msgstr "Plugin"
 
-#: handlers/adminhandler.php:362
+#: handlers/adminhandler.php:368
 msgid "Import content from another site"
 msgstr ""
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "View and manage users"
 msgstr "Lihat dan atur pengguna"
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "Users"
 msgstr "Pengguna"
 
-#: handlers/adminhandler.php:364
+#: handlers/adminhandler.php:370
 msgid "Manage your user profile"
 msgstr "Atur profil pengguna Anda"
 
-#: handlers/adminhandler.php:365
+#: handlers/adminhandler.php:371
 msgid "View and manage groups"
 msgstr "Lihat dan atur grup"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "View system log messages"
 msgstr "Lihat pesan log sistem"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "Logs"
 msgstr "Log"
 
-#: handlers/adminhandler.php:367
+#: handlers/adminhandler.php:373
 msgid "Log out of the administration interface"
 msgstr "Keluar dari antarmuka administrasi"
 
@@ -3071,7 +3072,7 @@ msgid "Habari successfully installed."
 msgstr "Habari telah berhasil terinstal."
 
 #: handlers/installhandler.php:228 handlers/adminpluginshandler.php:97
-#: handlers/adminpluginshandler.php:101 admin/themes.php:130
+#: handlers/adminpluginshandler.php:101 admin/themes.php:126
 msgid "Activate"
 msgstr "Aktifkan"
 
@@ -5029,7 +5030,7 @@ msgstr ""
 msgid "Update Available"
 msgstr ""
 
-#: admin/themes.php:52 admin/themes.php:142
+#: admin/themes.php:52 admin/themes.php:146
 #, php-format
 msgid "%1$s is licensed under the %2$s"
 msgstr ""
@@ -5055,11 +5056,11 @@ msgstr ""
 msgid "This theme requires the parent theme named \"%s\"."
 msgstr ""
 
-#: admin/themes.php:126
+#: admin/themes.php:128
 msgid "End Preview"
 msgstr ""
 
-#: admin/themes.php:128
+#: admin/themes.php:131
 msgid "Preview"
 msgstr ""
 
